@@ -29,5 +29,17 @@ public class Practice {
         int p=30,b;
         b=p--+--p;
         System.out.println(b);
+
+        /*
+        int odd =1;
+		if(odd) {
+			System.out.println("odd");
+			
+		}else {
+			System.out.println("even");
+        }
+        */
+     
+		}
     }
 }
