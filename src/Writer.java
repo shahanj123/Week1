@@ -7,7 +7,7 @@ public class Writer {
         String filename= "Practice.txt";
         FileWriter filewriter = new FileWriter(filename);
 
-        BufferedWriter bufferredwriter= new BufferedWriter(filename);
+        BufferedWriter bufferredwriter= new BufferedWriter(filewriter);
         
         bufferredwriter.write("Hello my name is Shahan\n I went to college at George Mason\n I am 24 years old\n");
         bufferredwriter.close();

@@ -10,13 +10,13 @@ public class Staircase {
     
     if(check == 1)
     {
-      for(int i = 0; i < height; i++)
+      for(int i = 1; i < height; i++)
       {
-        for(int j = 0; j < height; j++)
+        for(int j = 1; j < height; j++)
         {
           if(i >= j)
           {
-            System.out.print("# ");
+            System.out.print(i);
           }
         }
         System.out.println();
